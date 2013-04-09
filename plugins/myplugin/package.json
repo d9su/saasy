@@ -1,0 +1,34 @@
+{
+    "name": "docpad-plugin-myplugin",
+    "version": "2.0.0",
+    "description": "DocPad plugin which adds the ability to render Something to Something Else.",
+    "homepage": "https://github.com/your-github-username/docpad-plugin-yourPlugin",
+    "keywords": [
+        "docpad",
+        "docpad-plugin",
+        "something",
+        "somethingElse"
+    ],
+    "author": "Name <email> (url)",
+    "maintainers": [
+        "Name <email> (url)"
+    ],
+    "contributors": [
+        "Name <email> (url)"
+    ],
+    "bugs": {
+        "url": "https://github.com/your-github-username/docpad-plugin-yourPlugin/issues"
+    },
+    "repository" : {
+        "type": "git",
+        "url": "http://github.com/your-github-username/docpad-plugin-yourPlugin.git"
+    },
+    "engines" : {
+        "node": ">=0.6.0",
+        "docpad": "6.x"
+    },
+    "dependencies" : {
+        "gitpad": "x"
+    },
+    "main": "./myplugin.plugin.coffee"
+}
