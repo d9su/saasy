@@ -10,6 +10,7 @@ module.exports = (BasePlugin) ->
       # )
 
       gitpad = require "gitpad"
-      gitpad.hello();
-      gitpad.initRepo();
-      gitpad.showStatus();
+
+      gitpad.init()
+      # gitpad.showHistory()
+      
