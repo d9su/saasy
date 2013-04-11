@@ -13,4 +13,6 @@ module.exports = (BasePlugin) ->
 
       gitpad.init()
       # gitpad.showHistory()
+      # gitpad.showFileHistory('README.md', 2)
+      gitpad.publishFiles(['README.md']);
       
